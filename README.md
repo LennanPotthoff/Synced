@@ -1,4 +1,4 @@
-<h>Synced</h>
+# The largest heading
 
 ![Untitl7ed](https://user-images.githubusercontent.com/47326518/64069270-20181a80-cc3e-11e9-9549-7d313e42e858.png)
 
