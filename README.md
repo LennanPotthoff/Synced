@@ -15,3 +15,9 @@ Right click on the symbol to display your machine's local IP.
 
 ![Untitl7ed](https://user-images.githubusercontent.com/47326518/64069270-20181a80-cc3e-11e9-9549-7d313e42e858.png)
 
+Use this IP to connect to your pc from your android and start tranferring files! To transfer a desired file, simply click on on it in the displayed listview and follow the displayed dialog's instructions.
+
+![syncedhomescreen](https://user-images.githubusercontent.com/47326518/64069835-7ee39100-cc4a-11e9-9e19-c3e81c7ab079.png)
+
+NOTE! - Currently concurrent transfers aren't supported. Thus, when clicking on an additional file whilst a tranfer is still ongoing, it will ask you if you wish to cancel the current one. Concurrent transfers is something I hope to add in the near future.
+
