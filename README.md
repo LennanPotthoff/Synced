@@ -9,8 +9,9 @@ Google Play link here....
 
 After starting up Synced on your android device, download and run the jar file "SyncedServer". The small desktop symbol will be displayed in your taskbar.
 
-![Untitl7ed](https://user-images.githubusercontent.com/47326518/64069270-20181a80-cc3e-11e9-9549-7d313e42e858.png)
+![Untitled](https://user-images.githubusercontent.com/47326518/64069272-24443800-cc3e-11e9-849f-48341f3b82ed.png)
 
 Right click on the symbol to display your machine's local IP.
 
-![Untitled](https://user-images.githubusercontent.com/47326518/64069272-24443800-cc3e-11e9-849f-48341f3b82ed.png)
+![Untitl7ed](https://user-images.githubusercontent.com/47326518/64069270-20181a80-cc3e-11e9-9549-7d313e42e858.png)
+
