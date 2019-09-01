@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
+
+
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:id="@+id/popup"
+android:layout_width="@dimen/_275sdp"
+android:layout_height="@dimen/_200sdp"
+android:layout_gravity="center"
+    android:background="#E3DAC9"
+android:layout_marginStart="8dp"
+android:layout_marginTop="8dp"
+android:layout_marginEnd="8dp"
+android:layout_marginBottom="8dp"
+android:orientation="vertical"
+android:padding="5dp"
+app:corner_radius="16dp"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_125sdp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/syncQuestion"
+        android:layout_width="match_parent"
+        android:layout_marginStart="@dimen/_4sdp"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Would you like to transfer this file?"
+        android:textSize="@dimen/_17sdp" />
+
+    <TextView
+        android:id="@+id/fileName"
+        android:layout_width="@dimen/_170sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_50sdp"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:ellipsize="marquee"
+        android:textColor="#000000"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="The name of the file"
+        android:textSize="@dimen/_17sdp" />
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_13sdp"
+    android:orientation="horizontal">
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/yes_button"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_75sdp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="yes"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/_18sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/syncImg"
+        app:layout_constraintHorizontal_bias="0.546"
+        app:layout_constraintStart_toEndOf="@+id/triangle"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/no_button"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginBottom="8dp"
+        android:text="no"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/_18sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/syncImg"
+        app:layout_constraintHorizontal_bias="0.546"
+        app:layout_constraintStart_toEndOf="@+id/triangle"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="1.0" />
+
+</LinearLayout>
+
+</com.jcminarro.roundkornerlayout.RoundKornerLinearLayout>
